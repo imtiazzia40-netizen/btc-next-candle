@@ -1,4 +1,4 @@
-﻿name: Build APK from ZIP
+name: Build APK from ZIP
 
 on:
   push:
@@ -31,4 +31,4 @@ jobs:
         with:
           name: debug-apk
           path: project/app/build/outputs/apk/debug/app-debug.apk
-
+          
